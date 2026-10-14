@@ -1,0 +1,6 @@
+{
+  "schema": "framedrop.install/v1",
+  "name": "FrameTube-Test",
+  "files": [{ "url": "https://github.com/blazedkitsune/frametube/releases/download/v0.1/app-linux-arm64.tar.gz", "sha256": "4a34e831e951f741edf4213034ed2899fef5b87eb5cef7757bf218d62bbe7aa3" }],
+  "frameport": { "description": "One sentence about the game.", "icon": "https://raw.githubusercontent.com/blazedkitsune/frametube/refs/heads/main/assets/icon.png" }
+}
