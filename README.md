@@ -6,7 +6,7 @@ it's basically youtube.com/tv in a fullscreen electron window, plus a couple fix
 
 ## install
 
-[![Install with FramePort](https://cdn.jsdelivr.net/gh/spoopyghosty0/frameport@main/docs/badges/install-with-frameport-animated.svg)](https://frameport.app/install?manifest=https://raw.githubusercontent.com/blazedkitsune/frametube/refs/heads/main/manifest.json)
+[![Install with FramePort](https://cdn.jsdelivr.net/gh/spoopyghosty0/frameport@main/docs/badges/install-with-frameport-animated.svg)](https://frameport.app/install?manifest=https://github.com/blazedkitsune/frametube/releases/latest/download/frametube.install.json)
 
 1. grab `FrameTube-linux-arm64.tar.gz` from the [releases](../../releases) and unpack it
 2. in [FramePort](https://github.com/spoopyghosty0/frameport), go to add games, then "Add a Linux app… folder", and pick the unpacked folder
