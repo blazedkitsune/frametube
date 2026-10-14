@@ -74,7 +74,7 @@ jobs:
           merge-multiple: true
 
       # one-click install manifest for the frame (arm64), pinned to this tag so the sha256 always matches.
-      # the manifest itself gets uploaded as a release asset, so releases/latest/download/manifest.json never changes
+      # got description from package.json
       - name: manifest
         run: |
           cd release-assets
@@ -84,7 +84,7 @@ jobs:
             "schema": "framedrop.install/v1",
             "name": "FrameTube",
             "files": [{ "url": "https://github.com/${GITHUB_REPOSITORY}/releases/download/${GITHUB_REF_NAME}/FrameTube-linux-arm64.tar.gz", "sha256": "${sha}" }],
-            "frameport": { "description": "youtube's tv app as a flat linux app for the steam frame. launch it from your steam library, it floats over passthrough and you just watch stuff with your controllers, no laser pointing at tiny buttons.", "icon": "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/assets/icon.png" }
+            "frameport": { "description": "YouTube's TV interface as a Linux app for the Steam Frame, with controller navigation", "icon": "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/assets/icon.png" }
           }
           EOF
 
